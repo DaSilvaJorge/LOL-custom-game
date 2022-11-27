@@ -20,7 +20,7 @@ const Button = ({ game, setGame }) => {
   return (
     <div className="button-container">
       <button className="button" type="button" onClick={rollStart}>
-        Roll Champs
+        Roll
       </button>
     </div>
   );

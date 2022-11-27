@@ -47,7 +47,7 @@ const Header = (props) => {
           <option value={1}>1 Champ random</option>
           <option value={2}>2 Champs randoms</option>
           <option value={3}>3 Champs randoms</option>
-          <option value={20}>Pool 20 Champs Randoms</option>
+          {/* <option value={20}>Pool 20 Champs Randoms</option> */}
         </select>
       </div>
     </form>

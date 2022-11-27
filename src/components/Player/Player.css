@@ -1,14 +1,16 @@
 .player-card {
   margin: auto;
   text-align: center;
-  color: #fff;
+  max-width: 100%;
 }
 
 .player-name input {
   border: none;
-  border-bottom: 2px;
+  border-bottom: 2px #a79768 solid;
   background-color: transparent;
-  font-size: 25px;
+  font-size: 20px;
+  max-width: 50%;
+  margin-bottom: 5px;
 }
 
 .player-champ-options {
