@@ -6,16 +6,20 @@ import { ChampionCard } from "../Card/ChampionCard";
 export const Player = ({ name, picks }) => {
   const renderListOfUserNames = ([names]) => {
     return names.map((champId, index) => (
-      <li key={name + index}>{Object.keys(json.data)[champId]}</li>
+      <ChampionCard
+        key={name + index}
+        champ={Object.keys(json.data)[champId]}
+      />
     ));
   };
+  // console.log(json.data.Aatrox.name);
 
   return (
     <div className="player-card">
       <div className="player-name">
         <input type="text" defaultValue={name} />
       </div>
-      <ul>{renderListOfUserNames(picks)}</ul>
+      {renderListOfUserNames(picks)}
       <div className="player-champ-options"> </div>
     </div>
   );
