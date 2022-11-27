@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LOL-custom-game/static/css/main.f461f2e0.css",
+    "main.js": "/LOL-custom-game/static/js/main.f14888ac.js",
+    "static/js/787.fb65f41d.chunk.js": "/LOL-custom-game/static/js/787.fb65f41d.chunk.js",
+    "static/media/lol.jpeg": "/LOL-custom-game/static/media/lol.1193dbcf90651b22e6d6.jpeg",
+    "index.html": "/LOL-custom-game/index.html",
+    "main.f461f2e0.css.map": "/LOL-custom-game/static/css/main.f461f2e0.css.map",
+    "main.f14888ac.js.map": "/LOL-custom-game/static/js/main.f14888ac.js.map",
+    "787.fb65f41d.chunk.js.map": "/LOL-custom-game/static/js/787.fb65f41d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f461f2e0.css",
+    "static/js/main.f14888ac.js"
+  ]
+}
