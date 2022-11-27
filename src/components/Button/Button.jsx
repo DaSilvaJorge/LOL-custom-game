@@ -18,7 +18,7 @@ const Button = ({ game, setGame }) => {
     setGame({ ...game, ...game.players });
   };
   return (
-    <div className="buttons">
+    <div className="button-container">
       <button className="button" type="button" onClick={rollStart}>
         Roll Champs
       </button>

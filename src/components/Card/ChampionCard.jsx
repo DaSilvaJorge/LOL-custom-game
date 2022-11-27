@@ -1,12 +1,16 @@
-import React from "react";
+import "./ChampionCard.css";
 
 export const ChampionCard = (props) => {
-  console.log(props);
   return (
     <div>
-      <div className="ChampionCard">
-        {/* <div className="ChampionCard__image">{props.champ}</div> */}
-        <div className="ChampionCard__name">{props.champ}</div>
+      <div className="championCard">
+        <div className="championCard-image">
+          <img
+            src={`https://ddragon.leagueoflegends.com/cdn/12.22.1/img/champion/${props.champ}.png`}
+            alt={`${props.champ} img`}
+          />
+        </div>
+        <div className="championCard-name">{props.champ}</div>
       </div>
     </div>
   );

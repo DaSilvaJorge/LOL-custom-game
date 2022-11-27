@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 
 const Header = (props) => {
@@ -16,10 +16,15 @@ const Header = (props) => {
     setMode(Number(e.target.value));
   };
   //seteo de modo
-  const selectMode = (e) => {
-    e.preventDefault();
+  const selectMode = () => {
+    // e.preventDefault();
     props.onSetMode(players, mode);
   };
+
+  useEffect(() => {
+    selectMode(); //borre params
+    // eslint-disable-next-line
+  }, [players, mode]);
 
   return (
     <form action="" onSubmit={selectMode} className="main-header">
@@ -45,10 +50,6 @@ const Header = (props) => {
           <option value={20}>Pool 20 Champs Randoms</option>
         </select>
       </div>
-
-      <button className="button" type="submit">
-        Select Mode
-      </button>
     </form>
   );
 };

@@ -3,3 +3,16 @@
   text-align: center;
   color: #fff;
 }
+
+.player-name input {
+  border: none;
+  border-bottom: 2px;
+  background-color: transparent;
+  font-size: 25px;
+}
+
+.player-champ-options {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}

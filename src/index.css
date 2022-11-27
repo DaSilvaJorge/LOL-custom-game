@@ -18,6 +18,11 @@ code {
     monospace;
 }
 
+.page-container {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
 * {
   font-family: "Marcellus SC", serif;
   font-size: 18px;
@@ -26,16 +31,12 @@ code {
   color: #cdbe91;
 }
 
-.page-container {
-  height: 100vh;
-  width: 100vw;
-}
-
 .main {
   background-image: url("./assets/img/lol.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  background-position: center;
+  height: calc(100% - 70px);
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -50,17 +51,47 @@ select {
 }
 
 .team {
-  width: 35%;
+  width: 55%;
   text-align: center;
+  background-color: rgba(3, 9, 16, 0.4);
+  max-width: 25%;
+  border-radius: 25px;
 }
 
+.team-name {
+  margin: 25px auto;
+  max-width: 65%;
+  max-height: 30em;
+  color: #cdbe91;
+  border: 2px #cdbe91 solid;
+  background: #1e2328;
+  box-shadow: inset 0 0 2px #000000;
+  border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+  border-image-slice: 1;
+  border-width: 2px;
+}
+.team-name:hover {
+  text-shadow: 0 0 5px #ffffff80;
+  box-shadow: 0 0 8px 0 #ffffff50;
+  background: linear-gradient(to bottom, #1e2328, #433d2b);
+  cursor: pointer;
+  transition: 0.1s;
+}
 .team-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 5px;
 }
 
 h2 {
   font-size: 30px;
   color: rgb(255, 204, 105);
+}
+
+.button-container {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
