@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/LOL-custom-game/static/css/main.c8e150e6.css",
-    "main.js": "/LOL-custom-game/static/js/main.0807040f.js",
+    "main.css": "/LOL-custom-game/static/css/main.35d38c49.css",
+    "main.js": "/LOL-custom-game/static/js/main.bc052465.js",
     "static/js/787.fb65f41d.chunk.js": "/LOL-custom-game/static/js/787.fb65f41d.chunk.js",
     "static/media/lol.jpeg": "/LOL-custom-game/static/media/lol.1193dbcf90651b22e6d6.jpeg",
     "index.html": "/LOL-custom-game/index.html",
-    "main.c8e150e6.css.map": "/LOL-custom-game/static/css/main.c8e150e6.css.map",
-    "main.0807040f.js.map": "/LOL-custom-game/static/js/main.0807040f.js.map",
+    "main.35d38c49.css.map": "/LOL-custom-game/static/css/main.35d38c49.css.map",
+    "main.bc052465.js.map": "/LOL-custom-game/static/js/main.bc052465.js.map",
     "787.fb65f41d.chunk.js.map": "/LOL-custom-game/static/js/787.fb65f41d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8e150e6.css",
-    "static/js/main.0807040f.js"
+    "static/css/main.35d38c49.css",
+    "static/js/main.bc052465.js"
   ]
 }
