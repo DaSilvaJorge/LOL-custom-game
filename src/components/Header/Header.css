@@ -6,8 +6,14 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
-  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 5px;
+  background-color: rgba(3, 9, 16, 0.8);
+  /* color: #030910; */
   position: fixed;
 
   color: #fff;
+}
+
+.form-group label {
+  margin: 10px;
 }

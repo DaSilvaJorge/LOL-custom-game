@@ -24,7 +24,7 @@ const Header = (props) => {
   return (
     <form action="" onSubmit={selectMode} className="main-header">
       <div className="form-group">
-        <label htmlFor="players">Total Players</label>
+        <label htmlFor="players">Total Players:</label>
         <input
           name="players"
           type="number"
@@ -37,7 +37,7 @@ const Header = (props) => {
       </div>
 
       <div className="form-group">
-        <label htmlFor="modo">Modo</label>
+        <label htmlFor="modo">Mode:</label>
         <select type="select" name="modo" onChange={modeHandler}>
           <option value={1}>1 Champ random</option>
           <option value={2}>2 Champs randoms</option>
@@ -46,7 +46,9 @@ const Header = (props) => {
         </select>
       </div>
 
-      <button type="submit">Seleccionar</button>
+      <button className="button" type="submit">
+        Select Mode
+      </button>
     </form>
   );
 };

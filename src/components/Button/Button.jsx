@@ -1,3 +1,5 @@
+import "./Button.css";
+
 const Button = ({ game, setGame }) => {
   // random num
   const getRandomId = (min = 0, max = 161) => {
@@ -17,8 +19,8 @@ const Button = ({ game, setGame }) => {
   };
   return (
     <div className="buttons">
-      <button type="button" onClick={rollStart}>
-        Random Champs
+      <button className="button" type="button" onClick={rollStart}>
+        Roll Champs
       </button>
     </div>
   );

@@ -36,17 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.team {
-  width: 35%;
-  text-align: center;
-}
-
-.team h2 {
-  color: #fff;
-}
-.team-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
