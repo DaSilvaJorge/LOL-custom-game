@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/LOL-custom-game/static/css/main.35d38c49.css",
-    "main.js": "/LOL-custom-game/static/js/main.bc052465.js",
-    "static/js/787.fb65f41d.chunk.js": "/LOL-custom-game/static/js/787.fb65f41d.chunk.js",
-    "static/media/lol.jpeg": "/LOL-custom-game/static/media/lol.1193dbcf90651b22e6d6.jpeg",
-    "index.html": "/LOL-custom-game/index.html",
-    "main.35d38c49.css.map": "/LOL-custom-game/static/css/main.35d38c49.css.map",
-    "main.bc052465.js.map": "/LOL-custom-game/static/js/main.bc052465.js.map",
-    "787.fb65f41d.chunk.js.map": "/LOL-custom-game/static/js/787.fb65f41d.chunk.js.map"
+    "main.css": "/LOL-randomizer/static/css/main.d6662bf5.css",
+    "main.js": "/LOL-randomizer/static/js/main.72184cc5.js",
+    "static/js/787.fb65f41d.chunk.js": "/LOL-randomizer/static/js/787.fb65f41d.chunk.js",
+    "static/media/lol.jpeg": "/LOL-randomizer/static/media/lol.1193dbcf90651b22e6d6.jpeg",
+    "index.html": "/LOL-randomizer/index.html",
+    "main.d6662bf5.css.map": "/LOL-randomizer/static/css/main.d6662bf5.css.map",
+    "main.72184cc5.js.map": "/LOL-randomizer/static/js/main.72184cc5.js.map",
+    "787.fb65f41d.chunk.js.map": "/LOL-randomizer/static/js/787.fb65f41d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35d38c49.css",
-    "static/js/main.bc052465.js"
+    "static/css/main.d6662bf5.css",
+    "static/js/main.72184cc5.js"
   ]
 }
